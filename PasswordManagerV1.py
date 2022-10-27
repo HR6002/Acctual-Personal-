@@ -99,7 +99,7 @@ def generatePassword():
     
 
 def greetings():
-    print("                                         passwrod manager is up and running")
+    print("                                             passwrod manager is up and running")
     while True:
         userChoice=input("""
                                                     To add new password press N 
@@ -226,5 +226,3 @@ if __name__ == "__main__":
     #newPassword()
     coolLoadingScreen()
     greetings()
-
-    
