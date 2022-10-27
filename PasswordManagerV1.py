@@ -105,6 +105,7 @@ def greetings():
                                                     To add new password press N 
                                                     to retrieve an old password Press P
                                                     TO retrieve an old username Press U
+                                                    To view all Data press A
 
                                                     Your Choice:          """).upper()
         if userChoice=="N":
@@ -113,6 +114,19 @@ def greetings():
             oldPassword()
         elif userChoice=="U":
             oldusername()
+        elif userChoice=="A":
+            print("""
+            ----------------------------------------------------------------------------------------------------------------------------
+
+
+            """)
+            print(global_allpasswords)
+            print("""
+            ----------------------------------------------------------------------------------------------------------------------------
+
+
+            """)
+            print(global_websiteusername)
         else:
             True 
 
