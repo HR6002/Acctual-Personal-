@@ -4,13 +4,13 @@ from typing import final
 
 def coolLoadingScreen():
     print("---------------------------------------------------------------------------------------------------------------------------")
-    print("initializing passwrod manager app")
+    print("                                                 initializing passwrod manager app")
     for x in range (0,100):  
         b = 1+x
-        print (str(b)+"%", end="\r")
+        print ("                                                                "+str(b)+"%", end="\r")
         time.sleep(0.1)
-    print("pasawwrod manager succefully initialized:")
-    print("-------------------------------------------------------------------------------------------------------------")
+    print("                                             pasawwrod manager succefully initialized:")
+    print("----------------------------------------------------------------------------------------------------------------------------")
 
 
 
@@ -99,14 +99,14 @@ def generatePassword():
     
 
 def greetings():
-    print("passwrod manager is up and running")
+    print("                                         passwrod manager is up and running")
     while True:
         userChoice=input("""
-        To add new password press N 
-        to retrieve an old password Press P
-        TO retrieve an old username Press U
+                                                    To add new password press N 
+                                                    to retrieve an old password Press P
+                                                    TO retrieve an old username Press U
 
-                Your Choice:          """).upper()
+                                                    Your Choice:          """).upper()
         if userChoice=="N":
             newPassword()
         elif userChoice=="P":
